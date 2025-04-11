@@ -1,0 +1,13 @@
+# SimplePlugin 配置文件
+
+# 回复消息
+reply_message = "你好！这是一个简单的示例插件"
+
+# 是否启用自动回复
+enable_auto_reply = true
+
+# 触发自动回复的关键词
+keywords = ["simple", "简单", "示例", "插件"]
+
+# 日志级别
+log_level = "INFO"

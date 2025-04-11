@@ -1,0 +1,37 @@
+{
+    "api": {
+        "base_url": "http://localhost:9011/VXAPI",
+        "timeout": 30
+    },
+    "login": {
+        "method": "qrcode",
+        "device_name": "XNBot",
+        "data62": "",
+        "username": "",
+        "password": ""
+    },
+    "bot": {
+        "admin_wxids": ["wxid_example1", "wxid_example2"],
+        "log_level": "INFO",
+        "plugin_dirs": ["plugins"]
+    },
+    "services": {
+        "auto_start": true,
+        "wechat_api": {
+            "enabled": true,
+            "auto_restart": true
+        },
+        "redis": {
+            "enabled": true,
+            "auto_restart": true
+        }
+    },
+    "plugins": {
+        "echo": {
+            "enabled": true
+        },
+        "admin": {
+            "enabled": true
+        }
+    }
+}
